@@ -1,0 +1,24 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace getAverageOfArray.cs
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Please enter 5 numbers to be averaged, pressing return after each entry.");
+            double[] userArray = new double[5];
+    
+
+            for(double i = 0; i < userArray.Length; i++)
+            {
+                Console.WriteLine(("Enter a number \n") + Console.ReadLine()); 
+            }
+        }
+    }
+}
+
